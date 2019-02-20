@@ -20,6 +20,7 @@ fi
 
 -- 手动执行 .sh
 <p>
+
 输入命令：jobs
 终端显示：[1]+ Stopped vim /etc/network/interfaces > /home/leo/Desktop/ip.txt (wd: /)
 
@@ -37,6 +38,7 @@ fi
 再用jobs命令查看，确认已经杀掉了。
 </p>
 -- 计划任务示例
+
 ``` php
 00 15 * * * /export/scripts/erp_timeliness_statistics.sh >> /export/logs/support.orderplus.com/erp_timeliness_statistics.log 2>&1
 ```
